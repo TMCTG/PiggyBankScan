@@ -27,7 +27,7 @@ def PiggyBankQuery(wallet_addr):
             +" | Piglets total: " + str(getUserPiglets)
             +" | New Piglets ready: " + str(math.floor(getTrufflesSinceLastFeeding/getTrufflesPerPiglet))
             +" | Truffles total: " + str(getTrufflesSinceLastFeeding)
-            +" | Piglets per minute: " + str(getTrufflesPerPiglet/(trufflesPerSecond*60))
+            +" | Minutes per Piglet: " + str(getTrufflesPerPiglet/(trufflesPerSecond*60))
             +" | Next Piglet ETA: " + str(int(round(secondsUntilNextPiglet)))+" seconds"
             +" | Next compound ETA: " + str(timeToNextCompound)+" seconds")
         i += 1
