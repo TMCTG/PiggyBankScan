@@ -17,7 +17,7 @@ def PiggyBankQuery(wallet_addr):
         getTrufflesSinceLastFeeding = myContract.functions.getTrufflesSinceLastFeeding(wallet_addr,i).call()
         trufflesPerDay=getUserPiglets*86400
         trufflesPerSecond=trufflesPerDay/24/60/60
-        secondsUntilNextPiglet=.05+(getTrufflesPerPiglet-(getTrufflesSinceLastFeeding%getTrufflesPerPiglet))/trufflesPerSecond #Add a small delay to ensure the next plant is added
+        secondsUntilNextPiglet=(getTrufflesPerPiglet-(getTrufflesSinceLastFeeding%getTrufflesPerPiglet))/trufflesPerSecond
         print("PiggyBank #" + str(i) \
             +" | Piglets total: " + str(getUserPiglets)
             +" | New Piglets ready: " + str(math.floor(getTrufflesSinceLastFeeding/getTrufflesPerPiglet))
