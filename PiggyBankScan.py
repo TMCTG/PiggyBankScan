@@ -32,4 +32,4 @@ def PiggyBankQuery(wallet_addr):
             +" | Next compound ETA: " + str(timeToNextCompound)+" seconds")
         i += 1
 
-PiggyBankQuery("0x4532BBeA6EC2Df2b914df9c3f03D1D19F30701b1")
+PiggyBankQuery("0xae486dfa6D69415d5b832D3D9C81CAD9F09D5121")
