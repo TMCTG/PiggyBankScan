@@ -1,10 +1,10 @@
-|| 0x4532BBeA6EC2Df2b914df9c3f03D1D19F30701b1 || 2022-03-06 16:31:11.742648
-PiggyBank #0 | Piglets total: 136 | New Piglets ready: 6 | Truffles total: 17598536 | Minutes per Piglet: 317.6470588235294 | Next Piglet ETA: 4011 seconds
-PiggyBank #1 | Piglets total: 123 | New Piglets ready: 6 | Truffles total: 15911157 | Minutes per Piglet: 351.219512195122 | Next Piglet ETA: 18153 seconds
-PiggyBank #2 | Piglets total: 117 | New Piglets ready: 5 | Truffles total: 15131142 | Minutes per Piglet: 369.2307692307692 | Next Piglet ETA: 3597 seconds
-PiggyBank #3 | Piglets total: 112 | New Piglets ready: 5 | Truffles total: 14481824 | Minutes per Piglet: 385.7142857142857 | Next Piglet ETA: 9555 seconds
-PiggyBank #4 | Piglets total: 107 | New Piglets ready: 5 | Truffles total: 13833067 | Minutes per Piglet: 403.7383177570093 | Next Piglet ETA: 16065 seconds
-PiggyBank #5 | Piglets total: 209 | New Piglets ready: 10 | Truffles total: 27015967 | Minutes per Piglet: 206.69856459330143 | Next Piglet ETA: 7158 seconds
-PiggyBank #6 | Piglets total: 102 | New Piglets ready: 5 | Truffles total: 13182990 | Minutes per Piglet: 423.52941176470586 | Next Piglet ETA: 23226 seconds
-PiggyBank #7 | Piglets total: 101 | New Piglets ready: 5 | Truffles total: 13052230 | Minutes per Piglet: 427.7227722772277 | Next Piglet ETA: 24750 seconds
-PiggyBank #8 | Piglets total: 102 | New Piglets ready: 5 | Truffles total: 13178400 | Minutes per Piglet: 423.52941176470586 | Next Piglet ETA: 23271 seconds
+|| 0x4532BBeA6EC2Df2b914df9c3f03D1D19F30701b1 || 2022-03-07 00:51:59.768703
+PiggyBank #0 | Piglets total: 136 | New Piglets ready: 8 | Truffles total: 21685064 | Piglets per minute: 317.6470588235294 | Next Piglet ETA: 12080 seconds | Next compound ETA: -73051.40192 seconds
+PiggyBank #1 | Piglets total: 123 | New Piglets ready: 7 | Truffles total: 19607061 | Piglets per minute: 351.219512195122 | Next Piglet ETA: 9178 seconds | Next compound ETA: -73009.765948 seconds
+PiggyBank #2 | Piglets total: 117 | New Piglets ready: 7 | Truffles total: 18646758 | Piglets per minute: 369.2307692307692 | Next Piglet ETA: 17857 seconds | Next compound ETA: -72977.123991 seconds
+PiggyBank #3 | Piglets total: 112 | New Piglets ready: 6 | Truffles total: 17847200 | Piglets per minute: 385.7142857142857 | Next Piglet ETA: 2650 seconds | Next compound ETA: -72953.48403 seconds
+PiggyBank #4 | Piglets total: 107 | New Piglets ready: 6 | Truffles total: 17048203 | Piglets per minute: 403.7383177570093 | Next Piglet ETA: 10241 seconds | Next compound ETA: -72932.846062 seconds
+PiggyBank #5 | Piglets total: 209 | New Piglets ready: 12 | Truffles total: 33295999 | Piglets per minute: 206.69856459330143 | Next Piglet ETA: 1914 seconds | Next compound ETA: -72915.211564 seconds
+PiggyBank #6 | Piglets total: 102 | New Piglets ready: 6 | Truffles total: 16247580 | Piglets per minute: 423.52941176470586 | Next Piglet ETA: 18592 seconds | Next compound ETA: -72894.570603 seconds
+PiggyBank #7 | Piglets total: 101 | New Piglets ready: 6 | Truffles total: 16086775 | Piglets per minute: 427.7227722772277 | Next Piglet ETA: 20369 seconds | Next compound ETA: -72879.953552 seconds
+PiggyBank #8 | Piglets total: 102 | New Piglets ready: 6 | Truffles total: 16243296 | Piglets per minute: 423.52941176470586 | Next Piglet ETA: 18634 seconds | Next compound ETA: -72850.330571 seconds
