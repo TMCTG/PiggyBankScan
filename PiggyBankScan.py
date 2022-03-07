@@ -17,19 +17,19 @@ def PiggyBankQuery(wallet_addr):
         lastCompounded = currentPiggyBank[5]
         lastFeeding = currentPiggyBank[4]
         nextCompound = (datetime.datetime.utcfromtimestamp(max(lastCompounded,lastFeeding)) + datetime.timedelta(days=1))
-        timeToNextCompound = (nextCompound - datetime.datetime.utcnow()).total_seconds()
+        secondsToNextCompound = (nextCompound - datetime.datetime.utcnow()).total_seconds()
         getTrufflesPerPiglet = myContract.functions.TRUFFLES_TO_FEED_1PIGLET().call()
         getTrufflesSinceLastFeeding = myContract.functions.getTrufflesSinceLastFeeding(wallet_addr,i).call()
         trufflesPerDay=getUserPiglets*86400
         trufflesPerSecond=trufflesPerDay/24/60/60
-        secondsUntilNextPiglet=(getTrufflesPerPiglet-(getTrufflesSinceLastFeeding%getTrufflesPerPiglet))/trufflesPerSecond
+        secondsToNextPiglet=.05+(getTrufflesPerPiglet-(getTrufflesSinceLastFeeding%getTrufflesPerPiglet))/trufflesPerSecond #Add a small delay to ensure the next plant is added
         print("PiggyBank #" + str(i) \
             +" | Piglets total: " + str(getUserPiglets)
             +" | New Piglets ready: " + str(math.floor(getTrufflesSinceLastFeeding/getTrufflesPerPiglet))
             +" | Truffles total: " + str(getTrufflesSinceLastFeeding)
-            +" | Minutes per Piglet: " + str(getTrufflesPerPiglet/(trufflesPerSecond*60))
-            +" | Next Piglet ETA: " + str(int(round(secondsUntilNextPiglet)))+" seconds"
-            +" | Next compound ETA: " + str(timeToNextCompound)+" seconds")
+            +" | Minutes per Piglet: " + str(round(getTrufflesPerPiglet/(trufflesPerSecond*60),2))
+            +" | Next Piglet ETA: " + str(round(secondsToNextPiglet/60,2))+" minutes"
+            +" | Next compound ETA: " + str(round(secondsToNextCompound/60,2))+" minutes")
         i += 1
 
 PiggyBankQuery("0xae486dfa6D69415d5b832D3D9C81CAD9F09D5121")
