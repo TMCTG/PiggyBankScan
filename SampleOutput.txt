@@ -1,2 +1,3 @@
-|| 0xae486dfa6D69415d5b832D3D9C81CAD9F09D5121 || 2022-03-07 02:10:34.120940
-PiggyBank #0 | Piglets total: 2837 | New Piglets ready: 2 | Truffles total: 5498106 | Minutes per Piglet: 15.227352837504407 | Next Piglet ETA: 803 seconds | Next compound ETA: 84457.289633 seconds
+|| 0xae486dfa6D69415d5b832D3D9C81CAD9F09D5121 || 2022-03-07 12:27:33.446446
+PiggyBank #0 | Piglets total: 2837 | New Piglets ready: 42 | Truffles total: 110535194 | Minutes per Piglet: 15.23 | Next Piglet ETA: 5.41 minutes | Next compound ETA: 790.62 minutes
+PiggyBank #1 | Piglets total: 29 | New Piglets ready: 0 | Truffles total: 131399 | Minutes per Piglet: 1489.66 | Next Piglet ETA: 1414.14 minutes | Next compound ETA: 1364.45 minutes
